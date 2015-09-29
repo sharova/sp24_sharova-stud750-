@@ -1,0 +1,736 @@
+. {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  font-family: "PT Sans", sans-serif;
+}
+.cont{
+  padding-left: 125px;
+  padding-right: 125px;
+}
+  
+  /*<!-- Шапка страницы -->*/
+
+.logoblock {
+  background-color: #ffcd34;
+  height: 75px;
+  overflow: hidden;
+}
+.logo_name {
+font-size: 24px;
+color: #000;
+margin-left: 6px;
+margin-top: 22px;
+float: left;
+}
+.logo_image {
+margin-top: 10px;
+float: left;
+}
+
+a {
+  text-decoration: none;
+}
+.menu {
+ float: right;
+}
+.menu_link {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 5px;
+}
+.menu_link_act {
+font-weight: bold;
+}
+.btn-top {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 0 10px;
+  color: #000;
+  background-color: #ffe184;
+  padding: 12px 22px;
+}
+ul {
+  list-style-type: none;
+}
+ul.menu_list li{
+  display: inline-block;
+} 
+
+.menu_link, .btn-top {
+  display: inline-block;
+  vertical-align: middle;
+}
+/*Промо-блок*/
+
+.promo {
+  height: 462px;
+  background-image: url(http://placehold.it/960x370);
+}
+
+/*.promo:before{
+    content:"";
+    position: absolute;
+    width: 1200px;
+    height: 462px;
+    background: rgba(32,46,59,0.5);
+  }*/
+
+  h1, h2, h3{
+    margin: 0;
+  }
+  .title-wb {
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding-top: 125px;
+    margin-bottom: 34px;
+  }
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  .promo_text {
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  div.promo>p.promo_text:last-of-type{ margin-bottom: 31px; }
+  .btn-black {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 10px 16px;
+    color: #fff;
+    border: 3px solid #ffcd34;
+  }
+.btn-promo {margin: 0 0 0 375px;}
+
+/*Блок-форма Заказать консультацию*/
+.form {
+  background-color: #202e3b;
+  height: 175px;
+  overflow: hidden;
+}
+
+.form-title {
+  padding: 30px 0;
+}
+
+input[type=date]{ 
+  padding: 8px 35px;
+  margin: 0 10px;}
+
+  .title-y {
+  color: #ffcd34;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.btn-yellow {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  background-color: #ffcd34;
+}
+.btn-fy {
+  margin: 0px 0px 0px 10px;
+  letter-spacing: 0;
+  float: right;
+  padding: 11px 17px;
+}
+
+.btn-f {
+  width: 143px;
+  color: #fff;
+  font-weight: normal;
+  font-size: 16px;
+  background-color: #202e3b;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  font-family: "PT Sans", sans-serif;
+  padding: 10px 35px;
+  margin: 0 10px;
+  float: left;
+}
+.btn-f:first-child{
+  margin-left: 0;
+}
+
+/*Преимущества*/
+
+.advantages {
+height: 137px;
+background-color: #fff;
+overflow: hidden;
+}
+.advantage {
+  float: left;
+  padding-top: 44px;
+  vertical-align: middle;
+}
+  .adv-1{
+    width: 26%;
+  }
+  .adv-2{
+    width: 26%;
+  }
+  .adv-3{
+    width: 26%;
+  }
+  .adv-4{
+    width: 22%;
+  }
+.adv-img {
+  float: left;
+}
+p.adv {
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0 0 auto 56px;
+  font-weight: 600;
+}
+p.adv:last-child {
+  margin-right: 10px;
+}
+
+/*Боковое меню и Спецпредложения*/
+
+.grey_block {
+height: 400px;
+background-color: #f3f3f3;
+overflow: hidden;
+}
+.cat-menu {
+width: 250px;
+float: left;
+}
+.offer {
+width: 700px;
+float: left;
+}
+.title-cb {
+ padding: 37px 0 30px 0;
+}
+
+.title-b {
+color: #000;
+  font-size: 26px;
+  font-weight: bold;
+}
+a.cat-link {
+text-decoration: underline;
+font-size: 16px;
+line-height: 37px;
+color: #000;
+}
+.cat-menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.table {
+font-size: 16px;
+border: none;
+text-align: left;
+height: 194px;
+width: 690px;
+}
+table {border-spacing: 0 0;}
+.tr-dg {
+background-color: #dfdfdf;
+padding-left: 18px;
+}
+.tr-g {
+background-color: #f3f3f3;
+}
+.tr-w {
+background-color: #fff;
+}
+th, td {
+  padding-left: 18px;
+}
+th {font-weight: normal;}
+tr.tr-dg th {font-weight: bold;}
+
+/* Блок Спецтех в цифрах и Нас рекомендуют клиенты*/
+
+.blue_block {
+  height: 437px;
+  background-color: #202e3b;
+  overflow: hidden;
+}
+.title-w {
+color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 37px 0 25px 0;
+}
+  .nobold {
+    font-weight: normal;
+  }
+  .numbers {
+    width: 300px;
+    float: left;
+  }
+  .otziv {
+    width: 640px;
+    float: left;
+    overflow: hidden;
+  }
+  .otziv-cont {
+    height: 162px;
+    display: inline-block;
+  }
+  .otziv_img {
+    float: left;
+    border: 3px solid #ffcd34;
+    border-radius: 8px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+  .otziv_bq {
+    padding-left: 157px;
+    font-size: 18px;
+    color: #fff;
+    font-style: italic;
+  }
+  .otziv_c {
+    font-size: 18px;
+    color: #ffcd34;
+   font-style: normal;
+    font-weight: bold;
+    padding-left: 31px;
+    padding-top: 12px;
+    display: inline-block;
+  }
+ .numbers_item {
+  color: #9e9e9e;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 62px;
+  display: inline-block;
+  } 
+.big_yellow {
+    font-size: 38px;
+    color: #ffcd34;
+    margin-right: 12px;
+  vertical-align: middle;
+  }
+.numbers_list {
+   list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.logfoot{
+background-color: #202e3b;
+}
+.logfoot_name {
+  color: #ffcd34;
+}
+.btn-foot {
+background-color: #202e3b;
+color: #ffcd34;
+}
+.logfoot_link {
+  color: #fff;
+}
+
+/*Полоски*/
+  .stripes {
+  float: left;
+  width: 100%;
+  height: 10px;
+  border-top: 1px solid #000;
+  background-image: linear-gradient(125deg, black 35%,#FFCD34 35%,#FFCD34 65%, black 65%);
+  -webkit-background-size: 15px 15px;
+  background-size: 15px 10px;
+} 
+
+
+/*КАТАЛОГ*/
+
+  /*Промо блок*/
+.rent {
+height: 190px;
+background-image: url(http://placehold.it/190x1200);
+overflow: hidden;
+}
+.prorent {
+  width: 720px;
+  float: left;
+}
+.consult {
+  width: 230px;
+  float: left;
+}
+.rent-title {
+  font-size: 26px;
+  color: #ffcd34;
+  font-weight: normal;
+  margin: 40px 0 18px 0;
+}
+.rent-text {
+  font-size: 16px;
+  color: #fff;
+}
+.btn-cons {
+  padding: 15px 15px;
+  display: inline-block;
+  margin: 40px 0 15px 0;
+}
+.consult-text {
+  font-size: 16px;
+  color: #fff;
+  font-weight: normal;
+}
+
+/*Меню*/
+.catblock
+{
+  height: 965px;
+  background-color: #f3f3f3;
+  overflow: hidden;
+}
+
+aside {
+  margin-top: 15px;
+  height: 375px;
+}
+.trunk {
+  float: left;
+  padding-top: 10px;
+}
+.title-cat {
+  padding: 15px 0 25px 50px;
+}
+aside>.cat-menu-list {
+  clear: both;
+}
+.col1 {
+  width: 320px;
+  float: left;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.btn-dwnl {
+  margin-right: 10px;
+}
+/*Каталог*/
+
+.catalog_items {
+  padding-top: 15px;
+}
+.catalog_item {
+  height: 360px;
+  width: 240px;
+  background-color: #fff;
+  padding: 20px 30px;
+  margin: 5px 5px;
+}
+.col2 {
+  width: 310px;
+  float: left;
+}
+.col3 {
+  width: 310px;
+  float: left;
+}
+.empty {
+  height: 400px;
+  width: 320px;
+}
+.title-it {
+  font-size: 21px;
+  font-weight: bold;
+  color: #000;
+}
+.next-l {
+  display: block;
+}
+.item-img {
+  padding: 30px 0;
+}
+.price-it {
+font-size: 26px;
+font-weight: bold;
+}
+.month {
+font-size: 17px;
+font-weight: bold;
+}
+.btn-yw {
+  font-size: 16px;
+  color: #fff;
+  background-color: #ffcd34;
+  margin-top: 15px;
+  display: inline-block;
+  padding: 10px 19px 10px 19px;
+  float: left;
+}
+.btn-b{
+  font-size: 16px;
+  color: #fff;
+  background-color: #354b60;
+  margin-top: 15px;
+  display: inline-block;
+  padding: 10px 19px 10px 19px;
+  float: left;
+}
+
+
+/*Хлебные крошки*/
+.breadcrumbs {
+  clear: both;
+  overflow: hidden;
+}
+.page_list {
+list-style-type: none;
+padding: 0;
+}
+.page-n {
+  float: left;
+  color: #354b60;
+  padding: 3px 10px;
+  margin: 28px 8px;
+}
+.page-na {
+background-color: #354b60;
+border-radius: 4px;
+color: #fff;
+margin-left: 425px;
+}
+/*Спецпредложение*/
+
+.cat-special {
+  clear: both;
+ height: 463px;
+ background-image: url(http://placehold.it/550x1200);
+ padding-top: 40px;
+ padding-bottom: 48px;
+}
+.cat-ia {
+  height: 360px;
+  width: 245px;
+  background-color: #fff;
+  padding: 20px 35px;
+  margin: 5px 5px 5px 0;
+}
+.cat-sp-title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.price-it-s {
+  font-size: 21px;
+font-weight: bold;
+}
+.red-price {
+color: #d12222;
+}
+
+/*ПОРТФОЛИО*/
+
+.portfolio {
+  height: 100px;
+  background-image: url(http://placehold.it/100x1200);
+  overflow: hidden;
+}
+.port-title{
+  float: left;
+  font-size: 26px;
+  color: #ffcd34;
+  font-weight: normal;
+  margin-top: 33px;
+}
+.port-list {overflow: hidden;}
+.port-item {
+ float: right;
+ font-size: 15px;
+ text-decoration: underline;
+ color: #fff;
+margin-left: 30px;
+margin-top: 25px;
+}
+.ex-block {
+  height: 477px;
+  border-top: 10px solid #000;
+  clear: both;
+}
+.ex-block1 {
+background-image: url(http://placehold.it/477x1200);
+}
+.ex-block2 {
+background-image: url(http://placehold.it/477x1200);
+}
+.ex-block3 {
+background-image: url(http://placehold.it/477x1200);
+}
+.example {
+  height: 205px;
+  width: 275px;
+  background-color: #fff;
+  margin-top: 98px;
+  padding: 20px;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+.btn-ex {
+  font-size: 14px;
+  padding: 10px 10px 10px 15px;
+}
+.ex-pic {
+  vertical-align: middle;
+  margin:3px;
+}
+.ex-title {
+font-size: 20px;
+font-weight: bold;
+}
+.ex-text {
+margin: 10px 0 25px 0;
+font-size: 13px;
+line-height: 20px;
+}
+
+/*КОНТАКТЫ*/
+
+/*Блок контакты*/
+
+.contacts {
+  overflow: hidden;
+  height: 100px;
+  background-image: url(http://placehold.it/100x1200);
+}
+.cont-title {
+  margin-top: 30px;
+}
+.cont-text {
+font-size: 16px;
+color: #fff;
+margin: 39px 0 0 15px;
+display: inline-block;
+}
+
+.btn-cont {
+  float: right;
+  padding: 10px 15px;
+  margin: 27px 0 0 0;
+}
+
+/*Блок карта и форма*/
+
+.map-form {
+  clear: both;
+  height: 485px;
+  background-color: #f3f3f3;
+  overflow: hidden;
+}
+.map-contacts {
+    float: left;
+    margin-top: 45px;
+}
+.form-cont{
+  width: 300px;
+  float: right;
+  padding-top: 45px;
+}
+.pic-cont {
+  margin-right: 15px;
+}
+.cont-info {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  line-height: 30px;
+}
+.cons-text {
+  font-size: 16px;
+  color: #000;
+  font-weight: 500;
+  display: inline-block;
+  padding-top: 10px;
+}
+.form-contacts {
+margin-top: 15px;
+}
+.form-add {
+color: #b0b0b0;
+font-size: 16px;
+height: 38px;
+width: 286px;
+margin-bottom: 10px;
+padding-left: 10px;
+border: 1px solid #b0b0b0;
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+}
+.form-add2 {
+color: #b0b0b0;
+font-size: 16px;
+height: 80px;
+width: 276px;
+margin-bottom: 5px;
+padding: 10px 10px;
+border: 1px solid #b0b0b0;
+-webkit-box-sizing: content-box;
+-moz-box-sizing: content-box;
+box-sizing: content-box;
+}
+textarea {font-family: inherit;}
+input[type=submit]{border: none;}
+
+.btn-fc{
+width: 300px;
+}
+
+/*Блок отзывы*/
+.otziv-container {
+height: 405px;
+background-color: #fff;
+overflow: hidden;
+}
+.otziv-cont-2 {
+float: left;
+width: 220px;
+margin: 0px 10px;
+text-align: center;
+}
+
+div.otziv-cont-2:first-of-type{margin-left: 0;}
+div.otziv-cont-2:last-of-type{margin-right: 0;}
+
+.otziv-cont-title {
+font-size: 26px;
+font-weight: bold;
+margin: 20px 0;
+}
+
+.otziv-pic {
+border-radius: 60px;
+margin-bottom: 15px;
+}
+.otziv-text {
+font-size: 14px;
+color: #000;
+font-style: italic;
+font-weight: 500;
+}
+.otziv-name {
+font-size: 14px;
+font-weight: bold;
+margin-top: 10px;
+display: inline-block;
+}
