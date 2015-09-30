@@ -9,40 +9,43 @@ body {
   background-color: #fff;
   font-family: "PT Sans", sans-serif;
 }
-.cont{
-  padding-left: 125px;
-  padding-right: 125px;
+.container{
+width: 960px;
+margin: 0 auto;
 }
   
   /*<!-- Шапка страницы -->*/
 
-.logoblock {
+header {
   background-color: #ffcd34;
-  height: 75px;
+}
+  h1, h2, h3{
+    margin: 0;
+}
+  a {text-decoration: none;}
+
+.logoblock {
+  height: 76px;
   overflow: hidden;
 }
 .logo_name {
 font-size: 24px;
 color: #000;
 margin-left: 6px;
-margin-top: 22px;
+margin-top: 25px;
 float: left;
 }
 .logo_image {
-margin-top: 10px;
 float: left;
+margin-top: 20px;
 }
 
-a {
-  text-decoration: none;
-}
 .menu {
  float: right;
 }
 .menu_link {
   color: #000;
   font-size: 16px;
-  font-weight: 400;
   margin: 0 5px;
 }
 .menu_link_act {
@@ -54,7 +57,8 @@ font-weight: bold;
   margin: 0 0 0 10px;
   color: #000;
   background-color: #ffe184;
-  padding: 12px 22px;
+  padding: 15px 27px;
+  display: inline-block;
 }
 ul {
   list-style-type: none;
@@ -62,36 +66,25 @@ ul {
 ul.menu_list li{
   display: inline-block;
 } 
-
 .menu_link, .btn-top {
   display: inline-block;
   vertical-align: middle;
 }
+
+
 /*Промо-блок*/
 
 .promo {
-  height: 462px;
-  background-image: url(http://placehold.it/960x370);
+  height: 465px;
+  background-image: url(../img/promo.jpg);
 }
-
-/*.promo:before{
-    content:"";
-    position: absolute;
-    width: 1200px;
-    height: 462px;
-    background: rgba(32,46,59,0.5);
-  }*/
-
-  h1, h2, h3{
-    margin: 0;
-  }
   .title-wb {
     font-size: 44px;
     text-transform: uppercase;
     color: #fff;
     text-align: center;
-    padding-top: 125px;
-    margin-bottom: 34px;
+    padding-top: 122px;
+    margin-bottom: 35px;
   }
   p {
     margin: 0;
@@ -102,15 +95,16 @@ ul.menu_list li{
     color: #fff;
     text-align: center;
   }
-  div.promo>p.promo_text:last-of-type{ margin-bottom: 31px; }
+
   .btn-black {
     font-size: 18px;
     font-weight: 700;
     padding: 10px 16px;
     color: #fff;
     border: 3px solid #ffcd34;
+    display: inline-block;
   }
-.btn-promo {margin: 0 0 0 375px;}
+.btn-promo {margin: 23px 0 0 380px;}
 
 /*Блок-форма Заказать консультацию*/
 .form {
@@ -120,7 +114,7 @@ ul.menu_list li{
 }
 
 .form-title {
-  padding: 30px 0;
+  padding: 24px 0 30px 0;
 }
 
 input[type=date]{ 
@@ -157,7 +151,7 @@ input[type=date]{
   box-sizing: content-box;
   font-family: "PT Sans", sans-serif;
   padding: 10px 35px;
-  margin: 0 10px;
+  margin: 0 15px;
   float: left;
 }
 .btn-f:first-child{
@@ -177,16 +171,16 @@ overflow: hidden;
   vertical-align: middle;
 }
   .adv-1{
-    width: 26%;
+    width: 25%;
   }
   .adv-2{
-    width: 26%;
+    width: 27%;
   }
   .adv-3{
     width: 26%;
   }
   .adv-4{
-    width: 22%;
+    width: 21%;
   }
 .adv-img {
   float: left;
@@ -198,8 +192,10 @@ p.adv {
   font-weight: 600;
 }
 p.adv:last-child {
-  margin-right: 10px;
+  margin-right: 5px;
 }
+.adv-4>.adv-img {margin-left: 5px;}
+.adv-2>.adv-img .adv {margin-left: 5px;}
 
 /*Боковое меню и Спецпредложения*/
 
@@ -263,7 +259,7 @@ tr.tr-dg th {font-weight: bold;}
 /* Блок Спецтех в цифрах и Нас рекомендуют клиенты*/
 
 .blue_block {
-  height: 437px;
+  height: 428px;
   background-color: #202e3b;
   overflow: hidden;
 }
@@ -330,7 +326,10 @@ color: #fff;
   padding: 0;
   margin: 0;
 }
-.logfoot{
+
+/*Подвал*/
+
+footer {
 background-color: #202e3b;
 }
 .logfoot_name {
@@ -344,24 +343,13 @@ color: #ffcd34;
   color: #fff;
 }
 
-/*Полоски*/
-  .stripes {
-  float: left;
-  width: 100%;
-  height: 10px;
-  border-top: 1px solid #000;
-  background-image: linear-gradient(125deg, black 35%,#FFCD34 35%,#FFCD34 65%, black 65%);
-  -webkit-background-size: 15px 15px;
-  background-size: 15px 10px;
-} 
-
 
 /*КАТАЛОГ*/
 
   /*Промо блок*/
 .rent {
-height: 190px;
-background-image: url(http://placehold.it/190x1200);
+height: 182px;
+background-image: url(../img/catalog.jpg);
 overflow: hidden;
 }
 .prorent {
@@ -407,7 +395,7 @@ aside {
 }
 .trunk {
   float: left;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 .title-cat {
   padding: 15px 0 25px 50px;
@@ -513,10 +501,8 @@ margin-left: 425px;
 
 .cat-special {
   clear: both;
- height: 463px;
- background-image: url(http://placehold.it/550x1200);
- padding-top: 40px;
- padding-bottom: 48px;
+ height: 517px;
+ background-image: url(../img/special_offer.jpg);
 }
 .cat-ia {
   height: 360px;
@@ -530,6 +516,7 @@ margin-left: 425px;
   font-weight: bold;
   color: #fff;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 .price-it-s {
   font-size: 21px;
@@ -543,12 +530,12 @@ color: #d12222;
 
 .portfolio {
   height: 100px;
-  background-image: url(http://placehold.it/100x1200);
+  background-image: url(../img/portfolio.jpg);
   overflow: hidden;
 }
 .port-title{
   float: left;
-  font-size: 26px;
+  font-size: 22px;
   color: #ffcd34;
   font-weight: normal;
   margin-top: 33px;
@@ -568,17 +555,19 @@ margin-top: 25px;
   clear: both;
 }
 .ex-block1 {
-background-image: url(http://placehold.it/477x1200);
+background-image: url(../img/ex-block1.jpg);
 }
 .ex-block2 {
-background-image: url(http://placehold.it/477x1200);
+background-image: url(../img/ex-block2.jpg);
 }
 .ex-block3 {
-background-image: url(http://placehold.it/477x1200);
+background-image: url(../img/ex-block3.jpg);
+-webkit-background-size: contain;
+background-size: contain;
 }
 .example {
-  height: 205px;
-  width: 275px;
+  height: 196px;
+  width: 268px;
   background-color: #fff;
   margin-top: 98px;
   padding: 20px;
@@ -599,7 +588,7 @@ font-size: 20px;
 font-weight: bold;
 }
 .ex-text {
-margin: 10px 0 25px 0;
+margin: 10px 0 20px 0;
 font-size: 13px;
 line-height: 20px;
 }
@@ -610,8 +599,8 @@ line-height: 20px;
 
 .contacts {
   overflow: hidden;
-  height: 100px;
-  background-image: url(http://placehold.it/100x1200);
+  height: 105px;
+  background-image: url(../img/contacts.jpg);
 }
 .cont-title {
   margin-top: 30px;
@@ -719,7 +708,6 @@ margin: 20px 0;
 }
 
 .otziv-pic {
-border-radius: 60px;
 margin-bottom: 15px;
 }
 .otziv-text {

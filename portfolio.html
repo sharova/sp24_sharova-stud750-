@@ -3,27 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <script src="js/live.js"></script></head>
 <body>
 
-<!-- Шапка -->
+<!-- Шапка страницы -->
 
 <header>
-<div class="cont logoblock">
-<a href="#" class="logo"><img src="logo.png" alt="logo" class="logo_image"/>
-  <span class="logo_name"><b>Спецтех</b>24</span></a>
-<nav class="menu">
-  <ul class="menu_list">
-    <li><a href="index.html" class="menu_link">О компании</a></li>
-    <li><a href="catalog.html" class="menu_link">Каталог</a></li>
-    <li><a href="portfolio.html" class="menu_link menu_link_act">Портфолио</a></li>
-    <li><a href="contacts.html" class="menu_link">Контакты</a></li>
-      <li><a href="#" class="btn btn-top">Заказать звонок</a></li>
-  </ul>
-</nav>
+<div class="logoblock">
+  <div class="container">
+  <a href="#" class="logo"><img src="img/logo.png" height="36" width="47" alt="logo" class="logo_image"/>
+    <span class="logo_name"><b>Спецтех</b>24</span></a>
+  <nav class="menu">
+    <ul class="menu_list">
+      <li><a href="index.html" class="menu_link">О компании</a></li>
+      <li><a href="catalog.html" class="menu_link">Каталог</a></li>
+      <li><a href="portfolio.html" class="menu_link menu_link_act">Портфолио</a></li>
+      <li><a href="contacts.html" class="menu_link">Контакты</a></li>
+        <li><a href="#" class="btn-top">Заказать звонок</a></li>
+    </ul>
+  </nav>
+  </div>
 </div>
-<div class="stripes"></div>
 </header>
 
 <!-- Основная часть -->
@@ -31,7 +32,9 @@
 <main>
   
   <!-- Портфолио меню -->
- <div class="portfolio cont">
+
+ <div class="portfolio">
+ <div class="container">
   <h1 class="port-title">Портфолио</h1>
     <div class="port-list">
     <ul>
@@ -43,38 +46,46 @@
     </ul>
     </div>
   </div>
+ </div>
 
   <!-- Примеры работ -->
-  
-    <article class="cont ex-block ex-block1">
+      <article class="ex-block ex-block1">
+       <div class="container">
       <div class="example">
         <h3 class="ex-title">Строительство жилого дома</h3>
         <h3 class="ex-title">в деревушке на севере холма</h3>
         <p class="ex-text">Спецтех24 - это сеть пунктов аренды спецтехники Cat, оборудования и специализированных инструментов для выполнения большинства видов работ.</p>
-        <a href="#" class="btn-ex btn-yellow">Подробнее <img src="http://placehold.it/20x20" alt="" class="ex-pic"></a>
+        <a href="#" class="btn-ex btn-yellow">Подробнее <img src="img/ex-pic.png" alt="" class="ex-pic"></a>
+      </div>
       </div>
     </article>
-    <article class="cont ex-block ex-block2">
+    <article class="ex-block ex-block2">
+     <div class="container">
         <div class="example">
         <h3 class="ex-title">Строительство жилого дома</h3>
         <h3 class="ex-title">в деревушке на севере холма</h3>
         <p class="ex-text">Спецтех24 - это сеть пунктов аренды спецтехники Cat, оборудования и специализированных инструментов для выполнения большинства видов работ.</p>
-        <a href="#" class="btn-ex btn-yellow">Подробнее <img src="http://placehold.it/20x20" alt="" class="ex-pic"></a>
+        <a href="#" class="btn-ex btn-yellow">Подробнее <img src="img/ex-pic.png" alt="" class="ex-pic"></a>
+      </div>
       </div>
     </article>
-    <article class="cont ex-block ex-block3">
+
+    <article class="ex-block ex-block3">
+     <div class="container">
         <div class="example">
         <h3 class="ex-title">Строительство жилого дома</h3>
         <h3 class="ex-title">в деревушке на севере холма</h3>
         <p class="ex-text">Спецтех24 - это сеть пунктов аренды спецтехники Cat, оборудования и специализированных инструментов для выполнения большинства видов работ.</p>
-        <a href="#" class="btn-ex btn-yellow">Подробнее <img src="http://placehold.it/20x20" alt="" class="ex-pic"></a>
+        <a href="#" class="btn-ex btn-yellow">Подробнее <img src="img/ex-pic.png" alt="" class="ex-pic"></a>
+      </div>
       </div>
     </article>
 
   
    <!-- Блок Заказать консультацию -->
-  <div class="stripes"></div>
-  <div class="cont form">
+
+  <div class="form">
+   <div class="container">
     <h2 class="title-y form-title">Закажите бесплатную консультацию по подбору подходяще техники</h2>
     <div class="btn black">
       <input type="text" name="name" class="btn-f btn-black" value="Как Вас зовут?"/>
@@ -83,34 +94,40 @@
         <a href="#" class="btn-fy btn-yellow">Заказать консультацию</a>
     </div>
   </div>
+  </div>
+
+ <!-- Блок Преимущества -->
   
-  <!-- Блок Преимущества -->
-  
-  <div class="cont advantages">
-      <div class="advantage adv-1">
-        <img src="http:placehold.it/44x44" alt="" class="adv-img">
-        <p class="adv">Техника проходит обязятельное обслуживание перед каждым выездом</p>
+  <div class="advantages">
+    <div class="container">
+        <div class="advantage adv-1">
+          <img src="img/adv-1.png" height="40" width="42" alt="" class="adv-img">
+          <p class="adv">Техника проходит обязятельное обслуживание перед каждым выездом</p>
+        </div>
+        <div class="advantage adv-2">
+          <img src="img/adv-2.png" height="40" width="46" alt="" class="adv-img">
+          <p class="adv">Все машины оборудованы спец.сигналами для предупреждения аварий</p>
+        </div>
+        <div class="advantage adv-3">
+          <img src="img/adv-3.png" height="40" width="42" alt="" class="adv-img">
+          <p class="adv">Привезём модные строительные ограждения к кажому заказу от 20 000</p></div>
+        <div class="advantage adv-4">
+          <img src="img/adv-4.png" height="40" width="31" alt="" class="adv-img">
+          <p class="adv">С техникой приедут квалификационные операторы и водители</p>
       </div>
-      <div class="advantage adv-2">
-        <img src="http:placehold.it/44x44" alt="" class="adv-img">
-        <p class="adv">Все машины оборудованы спец.сигналами для предупреждения аварий</p>
-      </div>
-      <div class="advantage adv-3">
-        <img src="http:placehold.it/44x44" alt="" class="adv-img">
-        <p class="adv">Привезём модные строительные ограждения к кажому заказу от 20 000</p></div>
-      <div class="advantage adv-4">
-        <img src="http:placehold.it/44x44" alt="" class="adv-img">
-        <p class="adv">С техникой приедут квалификационные операторы и водители</p>
     </div>
   </div>
+
+
 </main>
 
 
 <!-- Подвал -->
 
 <footer>
-<div class="cont logoblock logfoot">
-<a href="#" class="logo"><img src="logo.png" alt="logo" class="logo_image logfoot_image"/>
+<div class="container">
+<div class="logoblock logfoot">
+<a href="#" class="logo"><img src="img/logo-f.png" alt="logo" class="logo_image logfoot_image"/>
   <span class="logo_name logfoot_name"><b>Спецтех</b>24</span></a>
 <nav class="menu">
   <ul class="menu_list">
@@ -121,6 +138,7 @@
       <li><a href="#" class="btn-foot btn-top">Заказать звонок</a></li>
   </ul>
 </nav>
+</div>
 </div>
 </footer>
 </body>
