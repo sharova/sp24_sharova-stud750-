@@ -28,16 +28,22 @@ header {
   height: 76px;
   overflow: hidden;
 }
+.logo {
+  float: left;
+}
+
 .logo_name {
 font-size: 24px;
 color: #000;
 margin-left: 6px;
 margin-top: 25px;
-float: left;
+display: inline-block;
+vertical-align: middle;
 }
 .logo_image {
-float: left;
 margin-top: 20px;
+display: inline-block;
+vertical-align: middle;
 }
 
 .menu {
@@ -66,11 +72,6 @@ ul {
 ul.menu_list li{
   display: inline-block;
 } 
-.menu_link, .btn-top {
-  display: inline-block;
-  vertical-align: middle;
-}
-
 
 /*Промо-блок*/
 
@@ -338,6 +339,7 @@ background-color: #202e3b;
 .btn-foot {
 background-color: #202e3b;
 color: #ffcd34;
+padding-right: 0;
 }
 .logfoot_link {
   color: #fff;
@@ -353,7 +355,7 @@ background-image: url(../img/catalog.jpg);
 overflow: hidden;
 }
 .prorent {
-  width: 720px;
+  width: 730px;
   float: left;
 }
 .consult {
@@ -374,6 +376,7 @@ overflow: hidden;
   padding: 15px 15px;
   display: inline-block;
   margin: 40px 0 15px 0;
+  float: right;
 }
 .consult-text {
   font-size: 16px;
@@ -404,11 +407,12 @@ aside>.cat-menu-list {
   clear: both;
 }
 .col1 {
-  width: 320px;
+  width: 306.6px;
   float: left;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
+  margin-right: 10px;
 }
 .btn-dwnl {
   margin-right: 10px;
@@ -416,26 +420,29 @@ aside>.cat-menu-list {
 /*Каталог*/
 
 .catalog_items {
-  padding-top: 15px;
+  padding-top: 20px;
 }
 .catalog_item {
   height: 360px;
-  width: 240px;
+  width: 246px;
   background-color: #fff;
   padding: 20px 30px;
-  margin: 5px 5px;
+  margin-top: 20px;
+
 }
 .col2 {
-  width: 310px;
+  width: 306.6px;
   float: left;
+  margin: 0 10px;
 }
 .col3 {
-  width: 310px;
-  float: left;
+  width: 306.6px;
+  float: right;
+  margin-left: 10px;
 }
 .empty {
-  height: 400px;
-  width: 320px;
+  height: 360px;
+  clear: both;
 }
 .title-it {
   font-size: 21px;
@@ -477,6 +484,7 @@ font-weight: bold;
 
 
 /*Хлебные крошки*/
+
 .breadcrumbs {
   clear: both;
   overflow: hidden;
@@ -489,13 +497,13 @@ padding: 0;
   float: left;
   color: #354b60;
   padding: 3px 10px;
-  margin: 28px 8px;
+  margin: 20px 8px;
 }
 .page-na {
 background-color: #354b60;
 border-radius: 4px;
 color: #fff;
-margin-left: 425px;
+margin-left: 562px;
 }
 /*Спецпредложение*/
 
@@ -504,19 +512,12 @@ margin-left: 425px;
  height: 517px;
  background-image: url(../img/special_offer.jpg);
 }
-.cat-ia {
-  height: 360px;
-  width: 245px;
-  background-color: #fff;
-  padding: 20px 35px;
-  margin: 5px 5px 5px 0;
-}
+
 .cat-sp-title {
   font-size: 26px;
   font-weight: bold;
   color: #fff;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-top: 30px;
 }
 .price-it-s {
   font-size: 21px;
@@ -563,7 +564,7 @@ background-image: url(../img/ex-block2.jpg);
 .ex-block3 {
 background-image: url(../img/ex-block3.jpg);
 -webkit-background-size: contain;
-background-size: contain;
+height: 475px;
 }
 .example {
   height: 196px;
@@ -603,13 +604,16 @@ line-height: 20px;
   background-image: url(../img/contacts.jpg);
 }
 .cont-title {
-  margin-top: 30px;
+  float: left;
+  display: inline-block;
+  vertical-align: middle;
 }
 .cont-text {
 font-size: 16px;
 color: #fff;
 margin: 39px 0 0 15px;
 display: inline-block;
+vertical-align: middle;
 }
 
 .btn-cont {
