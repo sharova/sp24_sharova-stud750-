@@ -52,7 +52,7 @@ vertical-align: middle;
 .menu_link {
   color: #000;
   font-size: 16px;
-  margin: 0 5px;
+  padding: 15px;
 }
 .menu_link_act {
 font-weight: bold;
@@ -66,12 +66,31 @@ font-weight: bold;
   padding: 15px 27px;
   display: inline-block;
 }
+.active-y {transition: 1s linear color;}
+.active-y:hover {
+background-color: #ffecb2;
+}
+.active-y:active {
+background-color: #f6bf16;
+}
+
 ul {
   list-style-type: none;
 }
 ul.menu_list li{
   display: inline-block;
 } 
+
+.top-link {
+  transition: 0.5s step-start border;
+}
+.top-link:hover {
+  border: 2px solid #dbb335;
+}
+.top-link:active {
+  border: 2px solid #796e38;
+}
+
 
 /*Промо-блок*/
 
@@ -83,6 +102,7 @@ background-size: cover;
 background-repeat: no-repeat;
   position: relative;
   margin-top: 14px;
+  margin-bottom: 14px;
 }
   .title-wb {
     font-size: 44px;
@@ -110,7 +130,15 @@ background-repeat: no-repeat;
     border: 3px solid #ffcd34;
     display: inline-block;
   }
-.btn-promo {margin: 23px 0 0 380px;}
+.btn-promo {margin: 23px 0 0 380px;
+ transition: 0.5s step-start border;
+}
+.btn-promo:hover {
+  border: 3px solid #ffd966;
+}
+.btn-promo:active {
+  border: 3px solid #ffe390;
+}
 
 /*Блок-форма Заказать консультацию*/
 
@@ -140,7 +168,15 @@ input[type=date]{
   font-weight: 700;
   color: #000;
   background-color: #ffcd34;
+  transition: 1s linear color;
 }
+.btn-yellow:hover {
+  background-color: #ffd966;
+}
+.btn-yellow:active {
+  background-color: #f6bf16;
+}
+
 .btn-fy {
   margin: 0px 0px 0px 10px;
   letter-spacing: 0;
@@ -377,6 +413,13 @@ padding-right: 0;
 }
 .logfoot_link {
   color: #fff;
+  transition: 0.5s step-start border;
+}
+.logfoot_link:hover {
+  border: 2px solid #48535e;
+}
+.logfoot_link:active {
+  border: 2px solid #a6abb1;
 }
 
 /*Полоски*/
@@ -492,6 +535,15 @@ aside>.cat-menu-list {
 .btn-dwnl {
   margin-right: 10px;
 }
+a.cat-link-act {
+font-weight: bold;
+text-decoration: none;
+display: inline-block;
+padding-left: 15px;
+background: url(../img/excav.png);
+background-repeat: no-repeat;
+background-position: 0px 13px;
+}
 /*Каталог*/
 
 .catalog_items {
@@ -505,6 +557,26 @@ aside>.cat-menu-list {
   margin-top: 20px;
 
 }
+.new {
+  position: relative;
+  overflow: hidden;
+}
+.new:before {
+  content:"new";
+  color: #fff;
+  font-size: 19px;
+  font-weight: bold;
+  position: absolute;
+  padding: 7px 0;
+  width: 120px;
+  background-color: #00c22e;
+  text-align: center;
+  transform: rotate(45deg);
+  right: -36px;
+  top: 6px;
+}
+
+
 .col2 {
   width: 306.6px;
   float: left;
@@ -546,6 +618,13 @@ font-weight: bold;
   display: inline-block;
   padding: 10px 19px 10px 19px;
   float: left;
+  transition: 1s linear color;
+}
+.btn-yw:hover {
+  background-color: #ffd966;
+}
+.btn-yw:active {
+  background-color: #f6bf16;
 }
 .btn-b{
   font-size: 16px;
@@ -555,8 +634,14 @@ font-weight: bold;
   display: inline-block;
   padding: 10px 19px 10px 19px;
   float: left;
+  transition: 1s linear color;
 }
-
+.btn-b:hover {
+  background-color: #46617a;
+}
+.btn-b:active {
+  background-color: #567999;
+}
 
 /*Хлебные крошки*/
 
@@ -573,6 +658,15 @@ padding: 0;
   color: #354b60;
   padding: 3px 10px;
   margin: 20px 8px;
+  transition: 0.5s step-start border;
+}
+.page-n:hover {
+  border: 2px solid #9aa5af;
+  border-radius: 4px;
+}
+.page-n:active {
+  border: 2px solid #354b60;
+  border-radius: 4px;
 }
 .page-na {
 background-color: #354b60;
@@ -590,7 +684,24 @@ margin-left: 562px;
 background-size: cover;
 background-repeat: no-repeat;
 }
-
+.sale {
+  position: relative;
+  overflow: hidden;
+}
+.sale:before {
+  content:"sale";
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  padding: 8px 0;
+  width: 120px;
+  background-color: #d12222;
+  text-align: center;
+  transform: rotate(45deg);
+  right: -36px;
+  top: 6px;
+}
 .cat-sp-title {
   font-size: 26px;
   font-weight: bold;
@@ -642,6 +753,10 @@ color: #d12222;
  color: #fff;
 margin-left: 30px;
 margin-top: 25px;
+}
+.port-item-active {
+  text-decoration: none;
+  font-weight: bold;
 }
 .ex-block {
   height: 477px;
