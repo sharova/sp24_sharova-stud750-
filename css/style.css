@@ -125,13 +125,15 @@ background-repeat: no-repeat;
   .btn-black {
     font-size: 18px;
     font-weight: 700;
-    padding: 10px 16px;
+    padding: 10px 45px 10px 16px;
     color: #fff;
     border: 3px solid #ffcd34;
     display: inline-block;
   }
-.btn-promo {margin: 23px 0 0 380px;
+.btn-promo {
+  margin: 23px 0 0 380px;
  transition: 0.5s step-start border;
+ position: relative;
 }
 .btn-promo:hover {
   border: 3px solid #ffd966;
@@ -139,7 +141,17 @@ background-repeat: no-repeat;
 .btn-promo:active {
   border: 3px solid #ffe390;
 }
-
+  
+.btn-promo:before{
+  content:"";
+  background-image: url(../img/cat-pic.png);
+  background-repeat: no-repeat;
+  width: 13px;
+  height: 19px;
+  position: absolute;
+  right: 15px;
+  top: 14px;
+}
 /*Блок-форма Заказать консультацию*/
 
 .form {
@@ -153,9 +165,10 @@ background-repeat: no-repeat;
   padding: 24px 0 30px 0;
 }
 
-input[type=date]{ 
-  padding: 8px 35px;
-  margin: 0 10px;}
+.btn-f:nth-child(3) { 
+  padding: 10px 35px;
+  margin: 0 10px;
+}
 
   .title-y {
   color: #ffcd34;
@@ -208,6 +221,7 @@ input[type=date]{
 height: 137px;
 background-color: #fff;
 overflow: hidden;
+clear: both;
 }
 .advantage {
   float: left;
