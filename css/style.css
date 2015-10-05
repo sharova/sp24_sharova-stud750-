@@ -52,7 +52,8 @@ vertical-align: middle;
 .menu_link {
   color: #000;
   font-size: 16px;
-  padding: 15px;
+  padding: 14px;
+  border: 2px solid transparent;
 }
 .menu_link_act {
 font-weight: bold;
@@ -855,11 +856,12 @@ margin-top: 14px;
   float: left;
   display: inline-block;
   vertical-align: middle;
+  font-size: 26px;
 }
 .cont-text {
 font-size: 16px;
 color: #fff;
-margin: 39px 0 0 15px;
+margin: 42px 0 0 17px;
 display: inline-block;
 vertical-align: middle;
 }
